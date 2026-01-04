@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/presentation/widgets/download_cv_button.dart';
 import '../widgets/body/home_body.dart';
 import '../widgets/app_bar/home_app_bar.dart';
 
@@ -10,6 +11,8 @@ class HomeView extends StatelessWidget {
     return const Scaffold(
       appBar: HomeAppBar(),
       body: HomeBody(),
+      floatingActionButton: DownloadCVButton(),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }

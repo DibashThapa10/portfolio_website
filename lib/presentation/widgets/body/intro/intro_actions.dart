@@ -34,6 +34,17 @@ class IntoActions extends StatelessWidget {
         },
         width: 160,
       ),
+      context.width < DeviceType.ipad.getMaxWidth()
+          ? const SizedBox(height: 6)
+          : const SizedBox(width: 32),
+      // CustomButton(
+      //   label: 'Download CV',
+      //   icon: Icons.download,
+      //   backgroundColor: AppColors.primaryColor,
+      //   // onPressed: _downloadCV,
+
+      //   width: 160,
+      // ),
     ];
     return context.width < DeviceType.ipad.getMaxWidth()
         ? Column(
