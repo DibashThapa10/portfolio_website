@@ -44,10 +44,25 @@ class ProjectActions extends StatelessWidget {
               const SizedBox(width: 18),
             Expanded(
               child: CustomButton(
-                label: 'play store',
-                borderColor: AppColors.primaryColor,
+                label: 'Play Store',
+                backgroundColor: AppColors.primaryColor,
                 onPressed: () {
                   html.window.open(project.googlePlay!, '_blank');
+                },
+              ),
+            ),
+          ],
+          if (project.appleStore != null) ...[
+            if (project.previewLink != null ||
+                project.githubRepoLink != null ||
+                project.googlePlay != null)
+              const SizedBox(width: 18),
+            Expanded(
+              child: CustomButton(
+                label: 'App Store',
+                borderColor: AppColors.primaryColor,
+                onPressed: () {
+                  html.window.open(project.appleStore!, '_blank');
                 },
               ),
             ),

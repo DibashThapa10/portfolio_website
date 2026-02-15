@@ -5,6 +5,7 @@ class Project {
   final String? githubRepoLink;
   final String? previewLink;
   final String? googlePlay;
+  final String? appleStore;
 
   const Project({
     required this.name,
@@ -13,5 +14,6 @@ class Project {
     this.githubRepoLink,
     this.previewLink,
     this.googlePlay,
+    this.appleStore
   });
 }

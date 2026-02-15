@@ -17,17 +17,17 @@ class SocialMediaIcons extends StatelessWidget {
           link: SocialLinks.facebook,
         ),
         SocialMediaIconBtn(
-          icon: FontAwesomeIcons.instagram,
-          link: SocialLinks.instagram,
+          icon: FontAwesomeIcons.github,
+          link: SocialLinks.github,
         ),
         SocialMediaIconBtn(
           icon: FontAwesomeIcons.linkedinIn,
           link: SocialLinks.linkedin,
         ),
-        SocialMediaIconBtn(
-          icon: FontAwesomeIcons.twitter,
-          link: SocialLinks.twitter,
-        ),
+        // SocialMediaIconBtn(
+        //   icon: FontAwesomeIcons.twitter,
+        //   link: SocialLinks.twitter,
+        // ),
       ],
     );
   }
