@@ -127,7 +127,7 @@ abstract class AppConstants {
           'https://play-lh.googleusercontent.com/FVpiVgkB0ui4gIAJVTCtI9RLaZoaZzr4ghpSzx20iWnnK7TlRg63rTRxuoPTU2Cipy7HdYWeqAyYxaHz-t-N6mo=w480-h960-rw',
       description:
           'A productivity and life management app that enables users to manage tasks, habits, reminders, bills, and group collaboration from a single platform.',
-      //   appleStore: 'https://apps.apple.com/us/app/iprofixer-client/id6478153087',
+      appleStore: 'https://apps.apple.com/us/app/lifeordo/id6759165965',
       googlePlay:
           'https://play.google.com/store/apps/details?id=com.app.lifeordo',
     ),
