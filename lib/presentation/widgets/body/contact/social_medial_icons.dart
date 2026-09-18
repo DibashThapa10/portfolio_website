@@ -35,7 +35,9 @@ class SocialMediaIcons extends StatelessWidget {
 
 class SocialMediaIconBtn extends StatelessWidget {
   const SocialMediaIconBtn({super.key, required this.icon, this.link});
-  final IconData icon;
+  // final IconData icon;
+  final FaIconData icon;
+
   final String? link;
 
   @override
@@ -48,7 +50,7 @@ class SocialMediaIconBtn extends StatelessWidget {
       onPressed: () {
         html.window.open(link!, '_blank');
       },
-      child: Icon(
+      child: FaIcon(
         icon,
         color: AppColors.primaryColor,
         size: 32,
