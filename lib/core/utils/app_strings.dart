@@ -10,7 +10,7 @@ abstract class AppStrings {
       "state management, and deployment. "
       "In addition, I have experience working with React Native, where I have helped implement UI components "
       "and application fixes.";
-  static const String numOfExperience = '3.5+';
+  static const String numOfExperience = '3+';
   static const String experienceMsg =
       'Hands-on experience in building, maintaining, and deploying production-ready mobile applications with a focus on performance, scalability, and user satisfaction.';
   static const String servicesIOffer = 'Services I Offer';
